@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript" src="render.js"></script> 
+  <script type="text/javascript" src="app.js"></script>
+  <div class="search" class="hidden">
+    <input id="search-input" placeholder="command" autocomplete="off" />
+    <button id="search-button">Go</button>
+  </div>
+  <div id="content"></div>
+  <div class="sidebar">
+    <span id="icon" style="font-size: 3em; color: white;">
+        <i class="fas fa-address-book"></i>
+    </span>
+    <p></p>
+    <a onclick="print();" href='javascript:print();'>Print</a>
+    <a onclick="verify();" href='javascript:verifiy();'>Verify</a>
+    <a onclick="lookup();" href='javascript:lookup();'>Lookup</a>
+    <a onclick="contains();" href='javascript:contains();'>Contains</a>
+    <a onclick="update();" href='javascript:update();'>Update</a>
+    <a onclick="add();" href='javascript:add();'>Add</a>
+    <a onclick="deleteEmployee();" href='javascript:delete();'>Delete</a>
+  </div><!-- None of the javascript works yet. 
+    I have no idea what im doing as far as getting javascript to work in html is concerned... Im going to stay after class a while and get some help -->
+</body>
+</html>

@@ -1,0 +1,51 @@
+body {
+    height: 100vw;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('images/rings.jpg');
+    padding: 10px;
+}
+a {
+    position: relative;
+    color: white;
+    padding-left: 10px;
+    padding-top: 20px;/* I cannot figure out why the text is not spacing properly. I have tried these three properties and little turns up on google. */
+    margin-top: 20px;
+    height: 60px;
+    top: 20px;
+    text-decoration: none;
+}
+.search {
+    position: relative;
+    padding-left: 40%;
+    padding-right: 40%; 
+    width: 20%;
+    color: black;
+    border-bottom: 2px solid grey;
+    visibility: hidden; /* other option is "visible" */
+}
+.content {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    padding-left: 40%;
+    padding-right: 40%;
+    color: black;
+    z-index: -2;
+}
+.sidebar {
+    position: absolute;
+    top: -65px;
+    height: 100vh;
+    width: 70px;
+    background-color: grey;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    line-height: 20px;
+}
+#icon {
+    padding: 10px;
+
+}
